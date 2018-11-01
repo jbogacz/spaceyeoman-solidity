@@ -368,7 +368,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 313,
-        "sourceUnit": 1319,
+        "sourceUnit": 1404,
         "src": "26:76:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -379,7 +379,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 313,
-        "sourceUnit": 1189,
+        "sourceUnit": 1274,
         "src": "103:66:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -390,7 +390,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 313,
-        "sourceUnit": 506,
+        "sourceUnit": 591,
         "src": "170:66:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -404,10 +404,10 @@
               "id": 5,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 505,
+              "referencedDeclaration": 590,
               "src": "268:6:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC165_$505",
+                "typeIdentifier": "t_contract$_ERC165_$590",
                 "typeString": "contract ERC165"
               }
             },
@@ -422,10 +422,10 @@
               "id": 7,
               "name": "ERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1188,
+              "referencedDeclaration": 1273,
               "src": "276:6:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721_$1188",
+                "typeIdentifier": "t_contract$_ERC721_$1273",
                 "typeString": "contract ERC721"
               }
             },
@@ -440,10 +440,10 @@
               "id": 9,
               "name": "IERC721Enumerable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1318,
+              "referencedDeclaration": 1403,
               "src": "284:17:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IERC721Enumerable_$1318",
+                "typeIdentifier": "t_contract$_IERC721Enumerable_$1403",
                 "typeString": "contract IERC721Enumerable"
               }
             },
@@ -453,11 +453,11 @@
           }
         ],
         "contractDependencies": [
-          505,
-          515,
-          1188,
-          1291,
-          1318
+          590,
+          600,
+          1273,
+          1376,
+          1403
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -465,11 +465,11 @@
         "id": 312,
         "linearizedBaseContracts": [
           312,
-          1318,
-          1188,
-          1291,
-          505,
-          515
+          1403,
+          1273,
+          1376,
+          590,
+          600
         ],
         "name": "ERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -733,7 +733,7 @@
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 504,
+                      "referencedDeclaration": 589,
                       "src": "1140:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
@@ -851,9 +851,9 @@
                             "name": "balanceOf",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              712
+                              797
                             ],
-                            "referencedDeclaration": 712,
+                            "referencedDeclaration": 797,
                             "src": "1690:9:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$",
@@ -892,10 +892,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1371,
-                        1372
+                        1456,
+                        1457
                       ],
-                      "referencedDeclaration": 1371,
+                      "referencedDeclaration": 1456,
                       "src": "1674:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1099,7 +1099,7 @@
             "scope": 312,
             "src": "1553:198:0",
             "stateMutability": "view",
-            "superFunction": 1310,
+            "superFunction": 1395,
             "visibility": "public"
           },
           {
@@ -1196,7 +1196,7 @@
             "scope": 312,
             "src": "1893:88:0",
             "stateMutability": "view",
-            "superFunction": 1301,
+            "superFunction": 1386,
             "visibility": "public"
           },
           {
@@ -1285,10 +1285,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1371,
-                        1372
+                        1456,
+                        1457
                       ],
-                      "referencedDeclaration": 1371,
+                      "referencedDeclaration": 1456,
                       "src": "2377:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1439,7 +1439,7 @@
             "scope": 312,
             "src": "2304:138:0",
             "stateMutability": "view",
-            "superFunction": 1317,
+            "superFunction": 1402,
             "visibility": "public"
           },
           {
@@ -1496,7 +1496,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "2768:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -1510,7 +1510,7 @@
                       "lValueRequested": false,
                       "memberName": "_addTokenTo",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1112,
+                      "referencedDeclaration": 1197,
                       "src": "2768:17:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -1876,7 +1876,7 @@
             "scope": 312,
             "src": "2703:223:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1112,
+            "superFunction": 1197,
             "visibility": "internal"
           },
           {
@@ -1933,7 +1933,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "3275:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -1947,7 +1947,7 @@
                       "lValueRequested": false,
                       "memberName": "_removeTokenFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1147,
+                      "referencedDeclaration": 1232,
                       "src": "3275:22:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -2173,7 +2173,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 683,
                       "src": "3534:29:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2707,7 +2707,7 @@
             "scope": 312,
             "src": "3203:1020:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1147,
+            "superFunction": 1232,
             "visibility": "internal"
           },
           {
@@ -2764,7 +2764,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "4541:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -2778,7 +2778,7 @@
                       "lValueRequested": false,
                       "memberName": "_mint",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1018,
+                      "referencedDeclaration": 1103,
                       "src": "4541:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -3041,7 +3041,7 @@
             "scope": 312,
             "src": "4482:169:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1018,
+            "superFunction": 1103,
             "visibility": "internal"
           },
           {
@@ -3098,7 +3098,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "4943:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -3112,7 +3112,7 @@
                       "lValueRequested": false,
                       "memberName": "_burn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1044,
+                      "referencedDeclaration": 1129,
                       "src": "4943:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -3311,7 +3311,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 683,
                       "src": "5083:21:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3842,7 +3842,7 @@
             "scope": 312,
             "src": "4881:465:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1044,
+            "superFunction": 1129,
             "visibility": "internal"
           },
           {
@@ -4046,10 +4046,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1371,
-                        1372
+                        1456,
+                        1457
                       ],
-                      "referencedDeclaration": 1371,
+                      "referencedDeclaration": 1456,
                       "src": "5512:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4247,7 +4247,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 313,
-        "sourceUnit": 1319,
+        "sourceUnit": 1404,
         "src": "26:76:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4258,7 +4258,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 313,
-        "sourceUnit": 1189,
+        "sourceUnit": 1274,
         "src": "103:66:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4269,7 +4269,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 313,
-        "sourceUnit": 506,
+        "sourceUnit": 591,
         "src": "170:66:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4283,10 +4283,10 @@
               "id": 5,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 505,
+              "referencedDeclaration": 590,
               "src": "268:6:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC165_$505",
+                "typeIdentifier": "t_contract$_ERC165_$590",
                 "typeString": "contract ERC165"
               }
             },
@@ -4301,10 +4301,10 @@
               "id": 7,
               "name": "ERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1188,
+              "referencedDeclaration": 1273,
               "src": "276:6:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721_$1188",
+                "typeIdentifier": "t_contract$_ERC721_$1273",
                 "typeString": "contract ERC721"
               }
             },
@@ -4319,10 +4319,10 @@
               "id": 9,
               "name": "IERC721Enumerable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1318,
+              "referencedDeclaration": 1403,
               "src": "284:17:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IERC721Enumerable_$1318",
+                "typeIdentifier": "t_contract$_IERC721Enumerable_$1403",
                 "typeString": "contract IERC721Enumerable"
               }
             },
@@ -4332,11 +4332,11 @@
           }
         ],
         "contractDependencies": [
-          505,
-          515,
-          1188,
-          1291,
-          1318
+          590,
+          600,
+          1273,
+          1376,
+          1403
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -4344,11 +4344,11 @@
         "id": 312,
         "linearizedBaseContracts": [
           312,
-          1318,
-          1188,
-          1291,
-          505,
-          515
+          1403,
+          1273,
+          1376,
+          590,
+          600
         ],
         "name": "ERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -4612,7 +4612,7 @@
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 504,
+                      "referencedDeclaration": 589,
                       "src": "1140:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
@@ -4730,9 +4730,9 @@
                             "name": "balanceOf",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              712
+                              797
                             ],
-                            "referencedDeclaration": 712,
+                            "referencedDeclaration": 797,
                             "src": "1690:9:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$",
@@ -4771,10 +4771,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1371,
-                        1372
+                        1456,
+                        1457
                       ],
-                      "referencedDeclaration": 1371,
+                      "referencedDeclaration": 1456,
                       "src": "1674:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4978,7 +4978,7 @@
             "scope": 312,
             "src": "1553:198:0",
             "stateMutability": "view",
-            "superFunction": 1310,
+            "superFunction": 1395,
             "visibility": "public"
           },
           {
@@ -5075,7 +5075,7 @@
             "scope": 312,
             "src": "1893:88:0",
             "stateMutability": "view",
-            "superFunction": 1301,
+            "superFunction": 1386,
             "visibility": "public"
           },
           {
@@ -5164,10 +5164,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1371,
-                        1372
+                        1456,
+                        1457
                       ],
-                      "referencedDeclaration": 1371,
+                      "referencedDeclaration": 1456,
                       "src": "2377:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5318,7 +5318,7 @@
             "scope": 312,
             "src": "2304:138:0",
             "stateMutability": "view",
-            "superFunction": 1317,
+            "superFunction": 1402,
             "visibility": "public"
           },
           {
@@ -5375,7 +5375,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "2768:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -5389,7 +5389,7 @@
                       "lValueRequested": false,
                       "memberName": "_addTokenTo",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1112,
+                      "referencedDeclaration": 1197,
                       "src": "2768:17:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -5755,7 +5755,7 @@
             "scope": 312,
             "src": "2703:223:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1112,
+            "superFunction": 1197,
             "visibility": "internal"
           },
           {
@@ -5812,7 +5812,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "3275:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -5826,7 +5826,7 @@
                       "lValueRequested": false,
                       "memberName": "_removeTokenFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1147,
+                      "referencedDeclaration": 1232,
                       "src": "3275:22:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -6052,7 +6052,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 683,
                       "src": "3534:29:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -6586,7 +6586,7 @@
             "scope": 312,
             "src": "3203:1020:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1147,
+            "superFunction": 1232,
             "visibility": "internal"
           },
           {
@@ -6643,7 +6643,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "4541:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -6657,7 +6657,7 @@
                       "lValueRequested": false,
                       "memberName": "_mint",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1018,
+                      "referencedDeclaration": 1103,
                       "src": "4541:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -6920,7 +6920,7 @@
             "scope": 312,
             "src": "4482:169:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1018,
+            "superFunction": 1103,
             "visibility": "internal"
           },
           {
@@ -6977,7 +6977,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1398,
+                        "referencedDeclaration": 1483,
                         "src": "4943:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$312",
@@ -6991,7 +6991,7 @@
                       "lValueRequested": false,
                       "memberName": "_burn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1044,
+                      "referencedDeclaration": 1129,
                       "src": "4943:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -7190,7 +7190,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 683,
                       "src": "5083:21:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -7721,7 +7721,7 @@
             "scope": 312,
             "src": "4881:465:0",
             "stateMutability": "nonpayable",
-            "superFunction": 1044,
+            "superFunction": 1129,
             "visibility": "internal"
           },
           {
@@ -7925,10 +7925,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1371,
-                        1372
+                        1456,
+                        1457
                       ],
-                      "referencedDeclaration": 1371,
+                      "referencedDeclaration": 1456,
                       "src": "5512:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8105,5 +8105,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-16T05:00:35.209Z"
+  "updatedAt": "2018-10-31T05:46:45.157Z"
 }
