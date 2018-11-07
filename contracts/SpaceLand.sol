@@ -78,4 +78,8 @@ contract SpaceLand is ERC721Enumerable {
   function maxTotalSupply() public view returns (uint256) {
     return _landMeta.rows * _landMeta.columns;
   }
+
+  function ownedLands() public view returns (uint256[]) {
+    return _tokensOf(msg.sender);
+  }
 }
