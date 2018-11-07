@@ -90,6 +90,7 @@ contract('SpaceLand', ([_, yopman, buyer1st, buyer2nd]) => {
 
       it('should return multiple owned land ids', async () => {
         const ownedLandIds = await this.spaceLand.ownedLands({ from: buyer1st});
+        ownedLandIds.length.should.be.equal(2);
         ownedLandIds[0].should.be.bignumber.equal(11);
         ownedLandIds[1].should.be.bignumber.equal(22);
       });
