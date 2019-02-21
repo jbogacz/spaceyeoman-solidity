@@ -6,7 +6,11 @@ const SIZE = new web3.BigNumber(10);
 const PRICE = web3.toWei('0.1', 'ether');
 
 
-module.exports = function(deployer, network) {
+module.exports = function(deployer, network, accounts) {
     console.log(`Deploying 'Factory' contract to '${network}' network.`);
-    deployer.deploy(SpaceLand, ROWS, COLUMNS, SIZE, SIZE, PRICE);
+    console.log(accounts)
+    deployer.deploy(
+        SpaceLand, ROWS, COLUMNS, SIZE, SIZE, PRICE,
+        { from: accounts[2] }
+    );
 };
